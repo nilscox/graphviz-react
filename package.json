@@ -2,23 +2,27 @@
   "name": "@nilscox/graphviz-react",
   "version": "0.1.0",
   "description": "React bindings for graphviz",
+  "license": "Beerware",
+  "author": "nilscox",
   "repository": {
     "type": "git",
     "url": "github:nilscox/graphviz-react"
-  },
-  "type": "module",
-  "main": "lib/index.js",
-  "types": "lib/index.d.ts",
-  "scripts": {
-    "build": "vite build"
   },
   "keywords": [
     "graphviz",
     "react",
     "dot"
   ],
-  "author": "nilscox",
-  "license": "Beerware",
+  "packageManager": "pnpm@8.14.1",
+  "type": "module",
+  "main": "lib/index.js",
+  "types": "lib/index.d.ts",
+  "files": [
+    "lib"
+  ],
+  "scripts": {
+    "build": "vite build"
+  },
   "peerDependencies": {
     "react": "18.x"
   },
